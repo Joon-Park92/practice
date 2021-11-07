@@ -10,6 +10,6 @@ entry_points:
       model_config:
         description: JSON blurb containing the configuration for the decision tree
         type: str
-      command: >-
-        python run.py --train_data {train_data} \
+    command: >-
+      python run.py --train_data {train_data} \
                       --model_conf {model_config}
