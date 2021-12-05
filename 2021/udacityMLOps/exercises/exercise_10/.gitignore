@@ -1,0 +1,3 @@
+**/outputs/
+**/random_forest/wandb/
+**/mlruns/
