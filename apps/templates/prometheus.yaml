@@ -11,11 +11,7 @@ spec:
     namespace: default
   project: default
   source:
-    chart: prometheus
-    helm:
-      values: |
-        pushgateway:
-          enabled: false
+    chart: kube-prometheus-stack
     repoURL: https://prometheus-community.github.io/helm-charts
     targetRevision: 13.0.2
   syncPolicy:
