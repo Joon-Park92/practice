@@ -1,5 +1,8 @@
 ## Structure of Package
 
+Ref : https://realpython.com/python-modules-packages/#python-packages 
+
+```
 .
 ├── README.md
 └── package
@@ -11,9 +14,11 @@
     └── sub2
         ├── sub2_mod1.py
         └── sub2_mod2.py
- 
-Ref : https://realpython.com/python-modules-packages/#python-packages 
-`````
+```
+
+
+### Try below codes
+
 ```python
 import package
 ```
